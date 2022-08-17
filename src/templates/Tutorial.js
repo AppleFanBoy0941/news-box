@@ -32,6 +32,12 @@ const Tutorial = ({ currentStep, setCurrentStep }) => {
 			transition: 1s;
 			border: 2px solid ${v.primary_1}20;
 
+			@media screen and (min-width: 30rem) {
+				width: 28rem;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
 			& h2 {
 				width: calc(100vw - 2rem - 4rem);
 			}

@@ -11,7 +11,7 @@ const TutorialContent = ({ currentStep }) => {
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;
-			width: calc(100vw - 2rem - 4rem);
+			width: calc(100%);
 		`,
 	};
 	const currentHeader =
